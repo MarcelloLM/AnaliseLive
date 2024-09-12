@@ -6,3 +6,4 @@ plotly
 spacy
 thinc
 tensorflow
+wordcloud
