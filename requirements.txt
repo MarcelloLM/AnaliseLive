@@ -5,4 +5,4 @@ nltk
 plotly
 spacy
 thinc
-tenserflow
+tensorflow
