@@ -15,7 +15,6 @@ import spacy
 from sklearn.feature_extraction.text import TfidfVectorizer
 import nltk
 
-import tensorflow as tf
 import seaborn as sns
 from collections import Counter
 
