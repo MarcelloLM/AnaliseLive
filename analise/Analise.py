@@ -26,7 +26,11 @@ from sklearn.metrics import accuracy_score
 import requests
 
 # Download NLTK data
-nltk.download('punkt')
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
+
 nltk.download('stopwords')
 
 # Carregar dados
