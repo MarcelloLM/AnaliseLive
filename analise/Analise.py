@@ -35,7 +35,7 @@ nltk.download('stopwords')
 
 # Carregar dados
 # Verifique o caminho do arquivo CSV
-caminho_arquivo = r"C:\Users\AMD\Desktop\AnaliseLive-main\AnaliseLive-main\analise\Bases\setembro\Conversation-info-Thu Aug 01 2024-Fri Sep 13 2024-1of1.csv"
+caminho_arquivo = r"https://raw.githubusercontent.com/MarcelloLM/AnaliseLive/main/analise/Bases/setembro/Conversation-info-Thu%20Aug%2001%202024-Fri%20Sep%2013%202024-1of1.csv"
 
 # Tentativa de carregar o CSV
 try:
