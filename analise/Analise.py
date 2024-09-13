@@ -31,7 +31,7 @@ nltk.download('stopwords')
 
 # Carregar dados
 # Verifique o caminho do arquivo CSV
-caminho_arquivo = r"H:\Atendentes CAF pastas\Marcello\Projeto\cdados\analise\Bases\julho\Live.csv"
+caminho_arquivo = r"https://raw.githubusercontent.com/MarcelloLM/AnaliseLive/main/analise/Bases/julho/live2.csv"
 
 # Tente carregar o arquivo CSV
 try:
