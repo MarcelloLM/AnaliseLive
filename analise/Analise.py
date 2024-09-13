@@ -33,15 +33,15 @@ nltk.download('stopwords')
 # Verifique o caminho do arquivo CSV
 caminho_arquivo = r"https://raw.githubusercontent.com/MarcelloLM/AnaliseLive/main/analise/Bases/julho/live2.csv"
 
-# Tente carregar o arquivo CSV
+# Tentativa de carregar o CSV
 try:
     Conversas = pd.read_csv(caminho_arquivo)
-    print("Arquivo CSV carregado com sucesso!")
-    # Aqui você pode continuar com o processamento do DataFrame Conversas
+    st.write("Arquivo CSV carregado com sucesso!")
 except FileNotFoundError:
-    print(f"O arquivo CSV não foi encontrado em {caminho_arquivo}. Verifique o caminho e tente novamente.")
+    st.write(f"O arquivo CSV não foi encontrado em {caminho_arquivo}. Verifique o caminho.")
 except Exception as e:
-    print(f"Ocorreu um erro ao carregar o arquivo CSV: {e}")
+    st.write(f"Ocorreu um erro ao carregar o arquivo CSV: {e}")
+
 
 Conversas['CATEGORIA'] = ''
 
