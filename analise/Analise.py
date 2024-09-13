@@ -35,7 +35,7 @@ nltk.download('stopwords')
 
 # Carregar dados
 # Verifique o caminho do arquivo CSV
-caminho_arquivo = r"https://raw.githubusercontent.com/MarcelloLM/AnaliseLive/main/analise/Bases/julho/live2.csv"
+caminho_arquivo = r"C:\Users\AMD\Desktop\AnaliseLive-main\AnaliseLive-main\analise\Bases\setembro\Conversation-info-Thu Aug 01 2024-Fri Sep 13 2024-1of1.csv"
 
 # Tentativa de carregar o CSV
 try:
@@ -50,7 +50,7 @@ except Exception as e:
 Conversas['CATEGORIA'] = ''
 
 # Definir stopwords adicionais
-palavras_a_remover = ['dia', 'saber', 'preciso', 'fazer', 'bem', 'ainda', 'pra', 'tarde',
+palavras_a_remover = ['dia', 'saber', 'preciso', 'fazer', 'bem', 'ainda', 'pra', 'tarde','ago', 'ago ltsucessoalvaristafecapbrgt',
                       'tudo', 'gostaria', 'alex', 'contato', 'sobre', 'favor', 'vou',
                       'obrigado', 'consigo', 'pois', 'bom', 'fiz', 'recebi', 'obrigada',
                       'agora', 'boa', 'aluno', 'faço', 'pode', 'caso', 'ter', 'posso',
